@@ -59,13 +59,13 @@
 }
 
 .cta-button:hover {
-  background-color: #007b99; /* Darker blue for hover effect */
+  background-color: #007b99; 
 }
 
-/* Mission Section */
+
 .mission-section, .vision-section, .services-section, .why-choose-us-section, .join-us-section {
   padding: 60px 20px;
-  background-color: #ffffff; /* White background for clean design */
+  background-color: #ffffff; 
 }
 
 .mission-content, .vision-content {
@@ -142,7 +142,7 @@
   margin-bottom: 10px;
 }
 
-/* Join Us Section */
+
 .join-us-section {
   background-color: #e6e6e6; 
   color: #333;
