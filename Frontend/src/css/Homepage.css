@@ -1,4 +1,4 @@
-/* Universal Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,18 +10,18 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Image Styles */
+
 .image {
     height: 60%;
     width: 100%;
 }
 
-/* Carousel Styles */
+
 .carousel-indicators {
     z-index: -1;
 }
 
-/* Specific Image Styles */
+
 .image1 {
     width: 33.6%;
     height: 100%;
@@ -32,7 +32,7 @@ body {
     margin: 20px 0 40px 100px;
 }
 
-/* Line Divider */
+
 .line {
     border: 1px solid rgb(194, 194, 194);
     margin-bottom: 5px;
@@ -40,14 +40,14 @@ body {
     padding-left: 220px;
 }
 
-/* Box Styling */
+
 .box {
     color: black;
     font-size: large;
     margin: 10px;
 }
 
-/* Hover Effects */
+
 .test:hover {
     transform: scale(1.04);
     transition: 0.3s ease-in-out;
@@ -58,195 +58,194 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-/* Flexbox Container for Scrolling Items */
+
 .item, .items {
     display: flex;
     height: 200px;
     width: auto;
     margin-bottom: 10px;
-    overflow-x: auto; /* Horizontal scrolling */
-    scroll-behavior: smooth; /* Smooth scrolling effect */
+    overflow-x: auto; 
+    scroll-behavior: smooth; 
 }
 
-/* Hide Scrollbar for All Browsers */
+
 .item::-webkit-scrollbar, .items::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari, and other WebKit-based browsers */
+    display: none; 
 }
 
 .item, .items {
-    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
 }
 
-/* Containing the Scrollable Area */
+
 .cont {
     display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-behavior: smooth; /* Smooth scrolling */
-    white-space: nowrap; /* Prevent wrapping of items */
+    overflow-x: auto; 
+    scroll-behavior: smooth;
+    white-space: nowrap; 
     padding: 20px;
 }
 .cont::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, WebKit */
+    display: none; 
 }
 .cont {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
 }
 
 
-/* Miscellaneous */
+
 .smb {
     width: auto;
 }
 
-/* Container for popular categories */
+
 .health-buttons {
     display: flex;
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: nowrap; /* Prevent wrapping */
-    scroll-behavior: smooth; /* Smooth scrolling */
+    overflow-x: auto; 
+    white-space: nowrap; 
+    scroll-behavior: smooth; 
     padding: 20px 0;
 }
 
-/* Hide scrollbar */
+
 .health-buttons::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, WebKit */
+    display: none; 
 }
 
 .health-buttons {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
 
-/* Style for individual health button */
+
 .health-button {
     display: inline-block;
     text-align: center;
-    flex: 0 0 auto; /* Prevent buttons from shrinking */
-    margin-right: 20px; /* Space between items */
-    width: 200px; /* Set a consistent width for each button */
+    flex: 0 0 auto;
+    margin-right: 20px; 
+    width: 200px; 
     cursor: pointer;
 }
 
-/* Adjust image size within health button */
+
 .health-button img {
-    width: 150px; /* Adjust width */
+    width: 150px; 
     height: 150px;
     object-fit: cover;
 }
 
-/* Hover effect for buttons */
+
 .health-button:hover {
     transform: scale(1.05);
     transition: 0.3s ease-in-out;
 }
 
-/* Button styling */
+
 .product-btn button {
     border-radius: 5px;
     background-color: transparent;
     font-size: 16px;
     font-weight: 500;
-    color: #333; /* Button text color */
+    color: #333; 
     cursor: pointer;
     box-shadow: none;
     padding: 5px;
 }
 
 .product-btn button:active {
-    transform: scale(0.98); /* Shrink on click */
+    transform: scale(0.98);
 }
 
-/* General box styling */
+
 .box {
     color: black;
     font-size: large;
     margin: 10px;
 }
 
-/* Container for popular categories */
+
 .popular-categories {
     display: flex;
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: nowrap; /* Prevent wrapping */
-    scroll-behavior: smooth; /* Smooth scrolling */
+    overflow-x: auto; 
+    white-space: nowrap; 
+    scroll-behavior: smooth; 
     padding: 20px 0;
 }
 
-/* Hide scrollbar */
+
 .popular-categories::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, WebKit */
+    display: none; 
 }
 
 .popular-categories {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
 }
 
-/* Style for individual category item */
+
 .category-item {
     display: inline-block;
     text-align: center;
-    flex: 0 0 auto; /* Prevent items from shrinking */
-    margin-right: 20px; /* Space between items */
-    width: 200px; /* Set a consistent width for each item */
+    flex: 0 0 auto;
+    margin-right: 20px; 
+    width: 200px; 
     cursor: pointer;
 }
 
-/* Adjust image size within category item */
+
 .category-img {
-    width: 150px; /* Adjust width */
+    width: 150px; 
     height: 150px;
     object-fit: cover;
     margin-bottom:8px;
 }
 
-/* Hover effect for category items */
+
 .category-item:hover {
     transform: scale(1.05);
     transition: 0.3s ease-in-out;
 }
 
-/* Container for Dabur top sellers */
+
 .dabur-top-sellers {
     display: flex;
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: nowrap; /* Prevent wrapping */
-    scroll-behavior: smooth; /* Smooth scrolling */
+    overflow-x: auto;
+    white-space: nowrap; 
+    scroll-behavior: smooth; 
     padding: 20px 0;
 }
 
-/* Hide scrollbar */
+
 .dabur-top-sellers::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, WebKit */
+    display: none; 
 }
 
 .dabur-top-sellers {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
 }
 
-/* Style for individual product item */
+
 .product-item {
     display: inline-block;
     text-align: center;
-    flex: 0 0 auto; /* Prevent items from shrinking */
-    margin-right: 20px; /* Space between items */
-    width: 200px; /* Set a consistent width for each item */
+    flex: 0 0 auto; 
+    margin-right: 20px; 
+    width: 200px; 
     cursor: pointer;
 }
 
-/* Adjust image size within product item */
+
 .product-img {
-    width: 100px; /* Ensure the image takes up the full width of its container */
-    height: 150px; /* Set a fixed height for uniformity */
-    object-fit: cover; /* Ensure the image covers the container without distortion */
-    border-radius: 8px; /* Optional: add rounded corners */
+    width: 100px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px; 
     margin-bottom: 8px;
 }
 
-/* Hover effect for product items */
+
 .product-item:hover {
     transform: scale(1.05);
     transition: 0.3s ease-in-out;
