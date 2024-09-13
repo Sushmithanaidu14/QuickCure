@@ -1,8 +1,8 @@
-/* Container for the medicine grid */
+
 .medicines-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Increase min width to 250px */
-  gap: 25px; /* More spacing between cards */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  gap: 25px; 
   padding: 20px;
   margin-top: 170px;
 }
@@ -13,7 +13,7 @@
   flex-direction: column;
   justify-content: space-between;
   border: 1px solid #ddd;
-  padding: 20px; /* Increase padding */
+  padding: 20px; 
   border-radius: 8px;
   background-color: #fff;
   text-align: center;
@@ -52,7 +52,7 @@
   margin-left: 10px;
 }
 
-/* Button styling */
+
 .buttons {
   margin-top: auto;
   display: flex;
@@ -63,12 +63,12 @@
 .details-btn {
   background-color: #ffcc00;
   border: none;
-  padding: 12px 20px; /* Increase button size */
+  padding: 12px 20px; 
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 120px; /* Larger buttons */
+  width: 120px; 
 }
 
 .cart-btn:hover,
@@ -77,16 +77,16 @@
 }
 .pagination-container {
   display: flex;
-  justify-content: center; /* Center the pagination */
-  align-items: center; /* Vertically align items */
-  width: 100%; /* Ensure the container takes up full width */
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
 }
 
 .pagination {
   display: flex;
-  justify-content: center; /* Center buttons horizontally */
-  align-items: center; /* Center buttons vertically */
-  gap: 10px; /* Space between buttons */
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
 }
 
 .pagination button {
