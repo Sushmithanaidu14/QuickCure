@@ -2,10 +2,10 @@
     justify-content: space-evenly;
     background-color: rgb(160, 206, 252);
 }
-.navbar h3, /* For Medicines, Cancer Care, Lab Tests, Consult Doctor */
-.navbar .ooo, /* For Login and Signup */
-.navbar button, /* For Cart button */
-.navbar p { /* For About Us */
+.navbar h3, 
+.navbar .ooo, 
+.navbar button, 
+.navbar p { 
     cursor: pointer;
 }
 
