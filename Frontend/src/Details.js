@@ -321,5 +321,5 @@ const Design3 = styled.div`
 `;
 
 const CustomFontText = styled.p`
-  font-family: 'Arial, sans-serif'; /* Replace with your desired font */
+  font-family: 'Arial, sans-serif'; 
 `;
