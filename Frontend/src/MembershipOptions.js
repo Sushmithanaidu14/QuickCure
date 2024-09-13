@@ -7,17 +7,17 @@ function MembershipOptions() {
   const [membershipType, setMembershipType] = useState('');
   const [isMembershipAdded, setIsMembershipAdded] = useState(false);
 
-  // Open modal
+
   const handleOpenModal = () => {
     setShowModal(true);
   };
 
-  // Close modal
+
   const handleCloseModal = () => {
     setShowModal(false);
   };
 
-  // Simulate membership purchase (you can replace this with an actual API call)
+  
   const handleAddMembership = (type) => {
     setMembershipType(type);
     setIsMembershipAdded(true);
@@ -26,7 +26,7 @@ function MembershipOptions() {
 
   return (
     <div>
-      {/* Display button to add membership if not already added */}
+      
       {!isMembershipAdded ? (
         <Button variant="primary" onClick={handleOpenModal}>
           Add Membership
@@ -41,7 +41,7 @@ function MembershipOptions() {
         </div>
       )}
 
-      {/* Modal for membership selection */}
+      
       <Modal show={showModal} onHide={handleCloseModal}>
         <Modal.Header closeButton>
           <Modal.Title>Membership Options</Modal.Title>
